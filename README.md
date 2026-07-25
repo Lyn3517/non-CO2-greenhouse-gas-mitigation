@@ -20,7 +20,7 @@ This script is used to compare model performance across different gases. It read
 
 3. SHAPX.py
 
-This script is used for the interpretation of F-gases emission drivers. It takes the corresponding dataset as input, performs feature engineering, variable screening, parameter optimization, model training, and SHAP analysis, and outputs SHAP summary plots and feature importance results at both the global and regional scales.
+This script is used for the interpretation of gases emission drivers. It takes the corresponding dataset as input, performs feature engineering, variable screening, parameter optimization, model training, and SHAP analysis, and outputs SHAP summary plots and feature importance results at both the global and regional scales.
 
 ## Computational Environment
 
