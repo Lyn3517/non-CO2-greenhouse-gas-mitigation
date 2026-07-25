@@ -5,8 +5,7 @@
 This repository contains the code accompanying the article and is used to analyze non-CO2 greenhouse gas emissions through three main components:
 
 1. national/regional classification based on hierarchical clustering of multidimensional emission characteristics;
-2. comparative evaluation and visualization of model performance;
-3. SHAP-based interpretation of the drivers of non-CO2 greenhouse gas emissions.
+2. SHAP-based interpretation of the drivers of non-CO2 greenhouse gas emissions.
 
 The analysis covers CH₄, N₂O, and F-gases. The code in this repository is mainly intended to reproduce the analytical procedures and figures reported in the article.
 ## File Description
