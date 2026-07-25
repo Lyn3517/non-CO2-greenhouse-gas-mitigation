@@ -13,11 +13,7 @@ The analysis covers CH₄, N₂O, and F-gases. The code in this repository is ma
 
 This script is used to classify countries/regions according to their non-CO2 greenhouse gas emission characteristics. It reads the relevant emission feature data, selects the annual mean emissions of CH₄, N₂O, and F-gases together with several categorical features, and then applies standardization, principal component analysis, and Ward’s hierarchical clustering. The script generates the clustering results and outputs the dendrogram, PCA scatter plot, and cluster heatmap.
 
-2. fit.py
-
-This script is used to compare model performance across different gases. It reads observed and predicted values from Excel workbooks, calculates R², MAE, and RMSE, and produces a multi-gas, multi-model comparison figure for assessing the performance of different models.
-
-3. SHAPX.py
+2.SHAPX.py
 
 This script is used for the interpretation of gases emission drivers. It takes the corresponding dataset as input, performs feature engineering, variable screening, parameter optimization, model training, and SHAP analysis, and outputs SHAP summary plots and feature importance results at both the global and regional scales.
 
