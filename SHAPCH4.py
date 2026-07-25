@@ -1,51 +1,27 @@
 import os
-
 import warnings
-
 import numpy as np
-
 import pandas as pd
-
 import matplotlib
-
 matplotlib.use('Agg')
-
 import matplotlib.pyplot as plt
-
 import matplotlib.patches as mpatches
-
 import shap
-
 import optuna
-
 optuna.logging.set_verbosity(optuna.logging.WARNING)
-
 from sklearn.preprocessing import MinMaxScaler
-
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
-
 from sklearn.model_selection import TimeSeriesSplit
-
 from sklearn.ensemble import RandomForestRegressor
-
 from sklearn.linear_model import LinearRegression
-
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-
 import xgboost as xgb
-
 import lightgbm as lgb
-
 warnings.filterwarnings('ignore')
-
 FILE = os.path.join('X', 'CH4_filled.xlsx')
-
 GAS = 'CH4'
-
 OUT_DIR = os.path.join('X', f'output_SHAP_{GAS}')
-
 N_TRIALS = 50
-
 DIM_COLORS = {
 
     'Economy': '#2196F3',
